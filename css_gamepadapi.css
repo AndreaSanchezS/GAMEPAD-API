@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap");
+
+body {
+	background-color: #080f24;
+}
+@font-face {
+	font-family: FUENTE;
+	src: url("./fonts/airstrike3d.ttf");
+}
+.titulo p {
+	font-weight: bold;
+	font-family: FUENTE;
+	color: white;
+	font-size: 50px;
+	margin-left: 2rem;
+	grid-area: titulo;
+}
+
+#punt p {
+	font-family: "Roboto", sans-serif;
+	color: white;
+	font-size: 30px;
+	margin-left: 3rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 30% 1fr 30% 1fr;
+	grid-template-areas: "titulo canvas volumen";
+}
+
+#canvas {
+	border: 1px solid black;
+	padding: 0;
+	margin: auto;
+	display: block;
+	grid-area: canvas;
+}
+#botones {
+	grid-area: volumen;
+}
+#btnaudio {
+	border-radius: 70%;
+}
+
+#vidas {
+	display: block;
+	width: 50px;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 990px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#puntuacionJ {
+	display: block;
+	width: 50px;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 490px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#number {
+	display: block;
+	width: 50px;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	left: 720px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+#taula {
+	color: white;
+	width: 15%;
+	margin-left: 3rem;
+}
